@@ -23,7 +23,7 @@ sudo docker run delivery
 
 ```
 
-# Rotas
+## Rotas
 
 * **GET** /pedidos
 * **GET** /pedidos/<int:id>
