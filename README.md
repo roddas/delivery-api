@@ -1,6 +1,6 @@
 # Delivery REST API
 
-Este é um desafio proposto pela CBLAB para adesão ao estágio de programador back-end. Eis as instruções:
+Este é um desafio proposto pela CBLAB para adesão ao estágio de programador back-end. Eis as instruções para executar no Linux:
 
 ```
 git clone https://github.com/roddas/delivery-api
