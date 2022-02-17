@@ -1,7 +1,3 @@
-from operator import truediv
-from flask import Flask,request
-from helpers import PedidosHelper
-from datetime import datetime
 
 app = Flask(__name__)
 app.config['JSON_AS_ASCII'] = True
@@ -69,9 +65,7 @@ def adicionarPedido():
     dados = {
             "cliente": body.get('cliente'),
             "entregue": body.get('entregue'),
-            "id": body.get('id'),
             "produto": body.get('produto'),
-            "timestamp": body.get('timestamp'),
             "valor": body.get('valor')
     }
     pedidosHelper.adicionarPedido(dados) 
