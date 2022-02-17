@@ -17,9 +17,9 @@ def root():
     <h1>Rotas da Delivery API</h1><br>
     <p>GET /pedidos</p>
     <p>POST /pedidos</p>
-    <p>GET /pedidos/id em que id é um inteiro não negativo</p>
-    <p>DELETE /pedidos/id em que id é um inteiro não negativo</p>
-    <p>PUT /pedidos/id em que id é um inteiro não negativo</p>
+    <p>GET /pedidos/<int:id></p>
+    <p>DELETE /pedidos/<int:id></p>
+    <p>PUT /pedidos/<int:id></p>
     '''
 
 @app.route('/pedidos',methods=['GET'])
