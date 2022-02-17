@@ -13,7 +13,14 @@ def response(mensagem : str ,data : list):
 
 @app.route('/')
 def root():
-    return 'Olá a todos'
+    return '''
+    <h1>Rotas da Delivery API</h1><br>
+    <p>GET /pedidos</p>
+    <p>POST /pedidos</p>
+    <p>GET /pedidos/id em que id é um inteiro não negativo</p>
+    <p>DELETE /pedidos/id em que id é um inteiro não negativo</p>
+    <p>PUT /pedidos/id em que id é um inteiro não negativo</p>
+    '''
 
 @app.route('/pedidos',methods=['GET'])
 def listarPedidos():
