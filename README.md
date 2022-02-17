@@ -28,5 +28,22 @@ sudo docker run delivery
 * **GET** /pedidos
 * **GET** /pedidos/id
 * **POST** /pedidos
+```
+{
+    "cliente": "cliente", 
+    "entregue": True or False,  
+    "produto": "produto", 
+    "valor": 213.0
+}
+```
 * **DELETE** /pedidos/id
 * **PUT** /pedidos/id
+```
+{
+    "cliente": "cliente atualizado", 
+    "entregue": True or False,  
+    "produto": "produto atualizado", 
+    "valor": 2.0
+}
+```
+*Estes valores são meramente demostrativos, ou seja, estão a título de exemplo.*
