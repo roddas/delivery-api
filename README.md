@@ -26,7 +26,7 @@ sudo docker run delivery
 ## Rotas
 
 * **GET** /pedidos
-* **GET** /pedidos/<int:id>
+* **GET** /pedidos/id
 * **POST** /pedidos
-* **DELETE** /pedidos/<int:id>
-* **PUT** /pedidos/<int:id>
+* **DELETE** /pedidos/id
+* **PUT** /pedidos/id
